@@ -256,9 +256,8 @@ public class SchoolService {
         lesson.setEndTime(endTime);
         lesson.setCourse(course);
         lesson.setDayOfWeek(dayOfWeek);
-        lessonRepository.save(lesson);
-
         timetable2.addLesson(lesson);
+        lessonRepository.save(lesson);
 
         return lesson;
     }
