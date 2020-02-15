@@ -1,0 +1,8 @@
+.classpath
+.settings
+.project
+.idea
+.vscode
+target
+schoolplanner.iml
+bin
