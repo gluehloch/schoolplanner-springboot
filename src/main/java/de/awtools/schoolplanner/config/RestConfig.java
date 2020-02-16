@@ -18,7 +18,7 @@ public class RestConfig extends WebSecurityConfigurerAdapter {
     protected void configure(HttpSecurity http) throws Exception {
         http
                 .authorizeRequests()
-                .antMatchers("/", "/home").permitAll()
+                .antMatchers("/", "/home", "/ping/*").permitAll()
                 .anyRequest().authenticated()
                 .and()
                 .formLogin()
