@@ -9,6 +9,12 @@
 		<!-- *** STILL UNDER DEVELOPMENT x.x.x (SNAPSHOT) *** -->
 
 		<!-- UNDER DEVELOPMENT -->
+		<release version="schoolplanner-0.2.0" date="2020-02-16"
+				 description="Spring Boot">
+			<action dev="andrewinkler" type="add" date="2020-02-16">
+				Moving to Spring Boot.
+			</action>
+		</release>
 
 		<!-- RELEASED -->
 		<release version="schoolplanner-0.0.1" date="2018-08-19"
